@@ -1,0 +1,35 @@
+/* O seletor :host permite estilizar o componente a partir do seu elemento "pai" */
+:host {
+  font-family: 'Inter', sans-serif; /* Sugestão de fonte similar. Você pode mudar. */
+}
+
+.navbar {
+  /* Cor de fundo preta como na imagem */
+  background-color: #121212 !important;
+  font-size: 1rem; /* Tamanho da fonte base */
+  height: 70px; /* ADICIONE ESTA LINHA */
+}
+
+.navbar-brand {
+  font-weight: 700; /* Deixa o nome em negrito */
+  letter-spacing: 1.5px; /* Espaçamento entre as letras */
+}
+
+.nav-link {
+  color: #f8f9fa !important; /* Cor branca para os links */
+  margin-left: 1.5rem; /* Espaçamento entre os links */
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #a0a0a0 !important; /* Efeito hover para os links */
+}
+
+/* Ajustes para o botão hamburguer em telas menores */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}

@@ -1,0 +1,65 @@
+
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  background-color: #121212;
+  align-items: center;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  padding: 24px; /* Remove o padding */
+}
+
+.text-content h1 {
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.lead {
+  color: #ffffff; /* Cor cinza claro para o parágrafo */
+  font-size: 1.1rem;
+  max-width: 450px; /* Limita a largura do texto */
+}
+
+.bi-whatsapp{
+    margin-left:0.5rem;
+}
+
+.btn-contact {
+  background-color: #e69e19f8; /* Verde-limão do exemplo */
+  color: #ffffff; /* Cor do texto escura */
+  padding: 12px 24px;
+  border-radius: 30px; /* Bordas bem arredondadas */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-contact:hover {
+  background-color: #21b61c; /* Um tom mais escuro para o hover */
+}
+
+.social-icon1 {
+  font-size: 1.8rem; /* Tamanho dos ícones */
+  color: #13579e;
+  margin-left: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icon2 {
+  font-size: 1.8rem; /* Tamanho dos ícones */
+  color: #ffffff;
+  margin-left: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-icon1:hover {
+  color: #21b61c; /* Ícones ficam brancos no hover */
+}
+
+.social-icon2:hover {
+  color: #21b61c; /* Ícones ficam brancos no hover */
+}
+
+/* Deixa a imagem com uma leve borda branca como no exemplo */
+img {
+  border: 8px solid #333333;
+}
