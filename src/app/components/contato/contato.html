@@ -1,0 +1,47 @@
+<div class="contato-container" id="contato">
+  <h2>Entre em Contato</h2>
+  <p class="text-center mb-4">
+    Tem um projeto em mente ou quer trocar uma ideia? Preencha o formulário abaixo 👇
+  </p>
+
+  <form action="https://formspree.io/f/mwpqdgkl" method="POST">
+    <!-- Nome -->
+    <div class="form-group">
+      <label for="nome">Nome</label>
+      <input 
+        type="text" 
+        id="nome" 
+        name="nome" 
+        required 
+        placeholder="Seu nome completo"
+      />
+    </div>
+
+    <!-- E-mail -->
+    <div class="form-group">
+      <label for="email">E-mail</label>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        required 
+        placeholder="seuemail@exemplo.com"
+      />
+    </div>
+
+    <!-- Mensagem -->
+    <div class="form-group">
+      <label for="mensagem">Mensagem</label>
+      <textarea 
+        id="mensagem" 
+        name="mensagem" 
+        rows="5" 
+        required 
+        placeholder="Digite sua mensagem..."
+      ></textarea>
+    </div>
+
+    <!-- Botão -->
+    <button type="submit">Enviar</button>
+  </form>
+</div>

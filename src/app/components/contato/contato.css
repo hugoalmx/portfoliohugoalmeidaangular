@@ -1,0 +1,97 @@
+/* Container da seção Contato */
+.contato-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #121212;
+  padding: 70px 100px 50px 100px; /* maior padding horizontal para desktop */
+  color: #ffffff;
+}
+
+/* Título */
+.contato-container h2 {
+  line-height: 1;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* Inputs e textarea */
+.contato-container input,
+.contato-container textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 12px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.contato-container input:focus,
+.contato-container textarea:focus {
+  outline: none;
+  border-color: #0d6efd;
+  box-shadow: 0 0 5px rgba(13, 110, 253, 0.3);
+}
+
+/* Botão Enviar */
+.contato-container button {
+  background-color: #31af68;
+  color: #ffffff;
+  padding: 10px 24px;
+  font-size: 15px;
+  margin-left: 5px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contato-container button:hover {
+  background-color: #21b61c;
+}
+
+/* ========================= */
+/* RESPONSIVO */
+/* ========================= */
+
+/* Tablets e telas médias */
+@media (max-width: 992px) {
+  .contato-container {
+    padding: 50px 50px 40px 50px;
+  }
+
+  .contato-container h2 {
+    font-size: 32px;
+  }
+}
+
+/* Celulares */
+@media (max-width: 768px) {
+  .contato-container {
+    padding: 40px 20px 30px 20px;
+  }
+
+  .contato-container h2 {
+    font-size: 28px;
+  }
+
+  .contato-container input,
+  .contato-container textarea {
+    font-size: 14px;
+  }
+
+  .contato-container button {
+    width: 100%;
+    margin-left: 0;
+    padding: 12px;
+    margin-bottom: 270px;
+    font-size: 16px;
+  }
+}
